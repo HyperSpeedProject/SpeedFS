@@ -96,6 +96,7 @@ ro.miui.product.home=com.miui.home
 ro.control_privapp_permissions=
 video.accelerate.hw=1
 ro.config.low_ram.threshold_gb=false
+ro.mi.os.version.incremental=HyperSpeed 2.0 Speedy
 
 # Rendering / Perf
 debug.hwui.renderer=skiagl
