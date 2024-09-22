@@ -18,4 +18,5 @@ Kronos mods for launcher
 @Cazymods for mods
 mvaisakh (GitHub) for optimizations
 bengris32 (GitHub) for optimizations
+LeDrew2017 (GitHub) for optimizations
 ```
