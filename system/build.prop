@@ -1,7 +1,32 @@
-#Fake bootloader state
+# Fake bootloader state
 ro.boot.verifiedbootstate=green
 vendor.boot.verifiedbootstate=green
 vendor.boot.vbmeta.device_state=locked
 ro.boot.veritymode=enforcing
 ro.boot.vbmeta.device_state=locked
 ro.boot.flash.locked=1
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
+
+# Surface Flinger
+ro.sf.blurs_are_expensive=1
+
+# Rendering
+ro.hwui.render_ahead=21
+
+# Perf
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# RIL
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+power.saving.mode=1
+persist.radio.add_power_save=1
