@@ -181,6 +181,28 @@ ro.cpufreq.governor=performance
 ro.cpu.governor=performance
 wifi.supplicant_scan_interval=180
 debug.sf.no_hw_vsync=1
+dalvik.vm.dexopt-flags=m=y
+ro.sys.fw.dex2oat_thread_count=4
+ro.sys.fw.use_split_dex=true
+ro.mot.eri.losalert.delay=1000
+debug.composition.type=cpu
+persist.sys.NV_POWERMODE=1
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.jniopts=forcecopy
+persist.sys.shutdown.mode=hibernate
+ro.product.gpu.driver=1
+ENFORCE_PROCESS_LIMIT=false
+ro.wmt.blcr.enable=0
+persist.sys.NV_FPSLIMIT=144
+persist.sys.NV_PROFVER=15
+persist.sys.NV_STEREOCTRL=0
+persist.sys.NV_STEREOSEPCHG=0
+persist.sys.NV_STEREOSEP=20
+captive_portal_detection_enabled=0
+dalvik.vm.dex2oat-filter=interpret-only
+dalvik.vm.image-dex2oat-filter=speed
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
