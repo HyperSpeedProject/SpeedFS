@@ -1,5 +1,9 @@
 # HyperSpeed [Speedy] [Stable 2.0]
 
+# IMPORTANT
+
+I have left Deving for almost 2 months now, and this includes this project, and many many other projects. So please do not ask anyone who worked on it when will it go back again.
+
 This is the HyperSpeed Project's source, it can be made in all Xiaomi devices with HyperOS Only.
 
 # Credits:
